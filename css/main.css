@@ -1,1 +1,20 @@
 /* Los estilos de tu proyecto */
+*{
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'raleway';
+}
+/*estilos boton menu  */
+.location{
+  float:left;
+}
+/* estilos navbar */
+.menu{
+  text-decoration: none;
+  background-color: #fff;
+  border: #fff;
+}
+img{
+  width: 100%;
+}
