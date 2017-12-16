@@ -1,13 +1,13 @@
 /* Los estilos de tu proyecto */
 *{
-  box-sizing: border-box;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: 'raleway';
 }
-/*estilos boton menu  */
-.location{
-  float:left;
+img{
+  width: 100%;
+  height: auto;
 }
 /* estilos navbar */
 .menu{
@@ -15,6 +15,50 @@
   background-color: #fff;
   border: #fff;
 }
-img{
+/*estilos de la primera seccion*/
+.image-tx{
+  background-image: url('../assets/images/taxi.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  flex-direction:column-reverse;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 60vh;
   width: 100%;
+}
+.bg{
+  background-color: #f7b617;
+  margin-right: 0;
+  padding: 40px;
+}
+.wd-img{
+  width: 30%;
+  height: auto;
+  display: inline-block;
+}
+.white{
+  color:#fff;
+  font-size:20px;
+  font-weight: bold;
+}
+.buttn{
+  color:#000;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .image-tx {
+    background-image: url('../assets/images/taxi.jpg');
+    height: 50vh;
+  }
+}
+
+@media (min-width: 992px) {
+ .image-tx {
+    background-image: url('../assets/images/taxi.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-size: auto;
+  }
 }
