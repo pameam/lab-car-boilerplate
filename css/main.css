@@ -180,6 +180,12 @@ img{
   font-weight: bold;
   padding: 5px;
 }
+.p-2s{
+  color: #fff;
+  font-size:23px;
+  font-weight: bold;
+  padding: 5px;
+}
 .pding-t{
   padding-top: 20px;
 }
