@@ -75,6 +75,9 @@ img{
 .desktop{
   display: none;
 }
+.img-circule{
+  width: 30%;
+}
 @media (max-width: 767px) {
   .box{
     width: 80%;
