@@ -2,7 +2,7 @@
 
 Este proyecto consiste en replicar el modelo que se pide en las siguientes imágenes:
 ![desktop](assets/images/desktop.jpg)
-![mobile](assets/images/mobile.png)
+![mobile](assets/images/movil.png)
 
 Para eso hemos creado este repositorio compuesto de la siguiente manera:
 * **assets:** _Carpeta en la que se encontraran las siguientes subcarpetas_
